@@ -14,15 +14,22 @@
 
 ## 🚀 Getting Started
 
-Follow these instructions to get a copy of the project up and running on your local machine.
+Follow these steps to set up the project locally on your machine.
 
-### Prerequisites
+### 1. Prerequisites
+Ensure you have [Node.js](https://nodejs.org/) (Version 18 or higher recommended) installed.
 
-Make sure you have [Node.js](https://nodejs.org/) installed on your computer.
+### 2. Installation
+Clone the repository and install the necessary dependencies:
 
-### Installation
+```bash
+# Clone the project
+git clone [https://github.com/YOUR_USERNAME/polap.git](https://github.com/YOUR_USERNAME/polap.git)
 
-1. **Clone the repository**
-   ```bash
-   git clone [https://github.com/YOUR_USERNAME/polap.git](https://github.com/YOUR_USERNAME/polap.git)
-   cd polap
+# Enter the project folder
+cd polap
+
+# Install dependencies (React, Vite, html-to-image, etc.)
+npm install
+npm install html-to-image
+npm run dev
